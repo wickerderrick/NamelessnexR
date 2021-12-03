@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NamelessnessR</string>
+    <string name="menu_home">home</string>
+    <string name="menu_stats">stats</string>
+    <string name="menu_logs">logs</string>
+    <string name="menu_settings">settings</string>
+    <string name="menu_patrons">patrons</string>
+</resources>
