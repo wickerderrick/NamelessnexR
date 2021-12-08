@@ -42,7 +42,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true"
                 android:layout_gravity="bottom|end"
-                android:backgroundTint="#59FFFFFF"
+                android:backgroundTint="?android:colorAccent"
                 android:src="@drawable/ic_round_start"
                 android:clickable="true"
                 android:focusable="true"

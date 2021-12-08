@@ -7,27 +7,27 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.namelessness.org.fragments.home.HomeFragment"
+        android:name="com.namelessnex.org.fragments.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/home_fragment" />
     <fragment
         android:id="@+id/statsFragment"
-        android:name="com.namelessness.org.fragments.stats.StatsFragment"
+        android:name="com.namelessnex.org.fragments.stats.StatsFragment"
         android:label="@string/menu_stats"
         tools:layout="@layout/stats_fragment" />
     <fragment
         android:id="@+id/logsFragment"
-        android:name="com.namelessness.org.fragments.logs.LogsFragment"
+        android:name="com.namelessnex.org.fragments.logs.LogsFragment"
         android:label="@string/menu_logs"
         tools:layout="@layout/logs_fragment" />
     <fragment
         android:id="@+id/patronFragment"
-        android:name="com.namelessness.org.fragments.patrons.PatronFragment"
+        android:name="com.namelessnex.org.fragments.patrons.PatronFragment"
         android:label="@string/menu_patrons"
         tools:layout="@layout/patron_fragment" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.namelessness.org.fragments.settings.SettingsFragment"
+        android:name="com.namelessnex.org.fragments.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/settings_fragment" />
 </navigation>
