@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/layout/activity_main.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/drawable-v24/ic_more_vert.xml" value="0.16282051282051282" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/drawable-v24/popup_background.xml" value="0.16282051282051282" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/drawable-v24/rect_selector.xml" value="0.16282051282051282" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/drawable-v24/round_selector.xml" value="0.16282051282051282" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/drawable-v24/slider_thumb.xml" value="0.1" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/drawable-v24/splash.xml" value="0.16282051282051282" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/layout/home_fragment.xml" value="0.14957264957264957" />
+        <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/layout/navigation_toolbar.xml" value="0.14957264957264957" />
         <entry key="..\:/Users/mxbhaee/AndroidStudioProjects/NamelessnessR/app/src/main/res/menu/bottom_menu.xml" value="0.16666666666666666" />
       </map>
     </option>

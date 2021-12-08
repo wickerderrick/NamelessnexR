@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.home.HomeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/main_content_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/home_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <com.github.jorgecastilloprz.FABProgressCircle
+            android:id="@+id/fabProgressCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/amber"
+            app:arcColor="@color/amber"
+            app:reusable="true"
+            app:roundedStroke="true"
+            app:arcWidth="2dp"
+            android:outlineSpotShadowColor="@color/amber"
+            android:outlineAmbientShadowColor="@color/amber"
+            android:layout_gravity="bottom|end">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="bottom|end"
+                android:backgroundTint="#59FFFFFF"
+                android:src="@drawable/ic_round_start"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_anchorGravity="bottom|right|end"
+                android:nextFocusLeft="@+id/recycler_view"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+        </com.github.jorgecastilloprz.FABProgressCircle>
+    </RelativeLayout>
+</FrameLayout>
