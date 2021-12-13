@@ -3,11 +3,13 @@ package com.namelessnex.org
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.PopupMenu
+import androidx.fragment.app.FragmentManager
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.namelessnex.org.databinding.ActivityMainBinding
+import com.namelessnex.org.fragments.home.HomeFragment
 import me.ibrahimsn.lib.SmoothBottomBar
 
 
@@ -26,7 +28,11 @@ class Main : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.homeFragment, R.id.statsFragment, R.id.logsFragment , R.id.patronFragment , R.id.settingsFragment
+                R.id.homeFragment,
+                R.id.statsFragment,
+                R.id.logsFragment,
+                R.id.patronFragment,
+                R.id.settingsFragment
             )
         )
         setSupportActionBar(binding.toolbar)
@@ -39,5 +45,10 @@ class Main : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()
+    }
+
+    override fun getSupportFragmentManager(): FragmentManager {
+        return super.getSupportFragmentManager()
+
     }
 }

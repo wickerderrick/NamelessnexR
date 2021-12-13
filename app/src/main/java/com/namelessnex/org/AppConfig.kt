@@ -98,4 +98,6 @@ object AppConfig {
     const val APP_THEME_DARK                      = "DARK THEME"
     const val APP_THEME_LIGHT                     = "LIGHT THEME"
     const val APP_THEME_TRANS                     = "TRANS THEME"
+
+    const val LOCKEDFILE                          = "xr"
 }
